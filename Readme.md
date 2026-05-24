@@ -185,6 +185,8 @@ http://MONOLITH_EXTERNAL_IP
 Expected:
 - Fancy Store homepage loads successfully
 
+![Home Image](readme_images/Home.png)
+
 ---
 
 # Task 3 – Create Orders and Products Microservices
@@ -311,6 +313,9 @@ NAME                 TYPE           EXTERNAL-IP
 fancy-orders-692     LoadBalancer   34.11.26.101
 fancy-products-347   LoadBalancer   34.48.19.160
 ```
+
+![](readme_images/Orders_JSON.png)
+![](readme_images/Products_JSON.png)
 
 ---
 
@@ -468,6 +473,11 @@ Expected:
 - Orders page works
 - Products page works
 
+![](readme_images/Home.png)
+![](readme_images/Products1.png)
+![](readme_images/Products2.png)
+![](readme_images/Orders.png)
+
 ---
 
 # Useful Kubernetes Commands
@@ -535,7 +545,9 @@ Google Kubernetes Engine Cluster
 
 ---
 
-# Output
+## 🧑‍💻 Author  
+- **LinkedIn**: [Aman Jha](https://www.linkedin.com/in/aman--jha/)  
+- **GitHub**: [Aman Jha](https://github.com/jha-aman09) 
 
 ## Home Page
 
