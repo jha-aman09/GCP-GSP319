@@ -535,4 +535,7 @@ Google Kubernetes Engine Cluster
 
 ---
 
-# Lab Completed Successfully
+# Output
+
+## Home Page
+
