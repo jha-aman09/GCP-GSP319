@@ -1,0 +1,98 @@
+2026-05-24 21:42:05.636 [info] [main] Log level: Info
+2026-05-24 21:42:05.636 [info] [main] Validating found git in: "git"
+2026-05-24 21:42:05.636 [info] [main] Using git "2.43.0" from "git"
+2026-05-24 21:42:05.636 [info] [Model][doInitialScan] Initial repository scan started
+2026-05-24 21:42:05.636 [info] > git rev-parse --show-toplevel [2937ms]
+2026-05-24 21:42:05.636 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2026-05-24 21:42:05.636 [info] > git rev-parse --show-toplevel [3ms]
+2026-05-24 21:42:05.636 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2026-05-24 21:42:05.644 [info] > git rev-parse --show-toplevel [1ms]
+2026-05-24 21:42:05.644 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2026-05-24 21:42:05.664 [info] > git rev-parse --show-toplevel [11ms]
+2026-05-24 21:42:05.664 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2026-05-24 21:42:06.181 [info] > git rev-parse --show-toplevel [510ms]
+2026-05-24 21:42:06.181 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2026-05-24 21:42:06.305 [info] > git rev-parse --show-toplevel [115ms]
+2026-05-24 21:42:06.305 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2026-05-24 21:42:06.919 [info] > git rev-parse --show-toplevel [603ms]
+2026-05-24 21:42:06.919 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2026-05-24 21:42:11.149 [info] > git rev-parse --show-toplevel [4215ms]
+2026-05-24 21:42:11.149 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2026-05-24 21:42:11.234 [info] > git rev-parse --show-toplevel [57ms]
+2026-05-24 21:42:11.234 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2026-05-24 21:42:11.259 [info] > git rev-parse --show-toplevel [9ms]
+2026-05-24 21:42:11.329 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [19ms]
+2026-05-24 21:42:11.460 [info] [Model][openRepository] Opened repository (path): /home/student_00_58c099c68ece/monolith-to-microservices
+2026-05-24 21:42:11.460 [info] [Model][openRepository] Opened repository (real path): /home/student_00_58c099c68ece/monolith-to-microservices
+2026-05-24 21:42:11.460 [info] [Model][openRepository] Opened repository (kind): repository
+2026-05-24 21:42:11.464 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2026-05-24 21:42:11.497 [info] > git config --get commit.template [15ms]
+2026-05-24 21:42:11.499 [info] > git rev-parse --show-toplevel [9ms]
+2026-05-24 21:42:11.499 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2026-05-24 21:42:11.537 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [22ms]
+2026-05-24 21:42:11.554 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/student_00_58c099c68ece/monolith-to-microservices/.git/refs/remotes/origin/master'
+2026-05-24 21:42:11.560 [info] > git rev-parse refs/remotes/origin/master [6ms]
+2026-05-24 21:42:11.658 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [75ms]
+2026-05-24 21:42:11.677 [info] > git status -z -uall [104ms]
+2026-05-24 21:42:11.754 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [20ms]
+2026-05-24 21:42:11.770 [info] > git config --get commit.template [22ms]
+2026-05-24 21:42:11.773 [info] > git config --get --local branch.master.vscode-merge-base [8ms]
+2026-05-24 21:42:11.773 [warning] [Git][config] git config failed: Failed to execute git
+2026-05-24 21:42:11.789 [info] > git reflog master --grep-reflog=branch: Created from *. [10ms]
+2026-05-24 21:42:11.799 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [11ms]
+2026-05-24 21:42:11.801 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [3ms]
+2026-05-24 21:42:11.816 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/student_00_58c099c68ece/monolith-to-microservices/.git/refs/remotes/origin/master'
+2026-05-24 21:42:11.818 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [11ms]
+2026-05-24 21:42:11.829 [info] > git rev-parse refs/remotes/origin/master [13ms]
+2026-05-24 21:42:11.860 [info] > git config --add --local branch.master.vscode-merge-base origin/master [33ms]
+2026-05-24 21:42:11.870 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [17ms] (cancelled)
+2026-05-24 21:42:11.910 [info] > git status -z -uall [68ms] (cancelled)
+2026-05-24 21:42:11.922 [info] > git config --get commit.template [19ms]
+2026-05-24 21:42:11.957 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [7ms]
+2026-05-24 21:42:11.972 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/student_00_58c099c68ece/monolith-to-microservices/.git/refs/remotes/origin/master'
+2026-05-24 21:42:11.977 [info] > git rev-parse refs/remotes/origin/master [5ms]
+2026-05-24 21:42:12.005 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [8ms]
+2026-05-24 21:42:12.015 [info] > git status -z -uall [27ms]
+2026-05-24 21:42:12.039 [info] > git merge-base refs/heads/master refs/remotes/origin/master [13ms]
+2026-05-24 21:42:12.051 [info] > git merge-base refs/heads/master refs/remotes/origin/master [14ms]
+2026-05-24 21:42:12.064 [info] > git diff --raw --numstat --diff-filter=ADMR -z --find-renames=50% deeb3099f6a29c0ec8b92a20013fdc94f69f0d47...refs/remotes/origin/master -- [14ms]
+2026-05-24 21:42:12.065 [info] > git diff --raw --numstat --diff-filter=ADMR -z --find-renames=50% deeb3099f6a29c0ec8b92a20013fdc94f69f0d47...refs/remotes/origin/master -- [5ms]
+2026-05-24 21:42:12.129 [info] > git check-ignore -v -z --stdin [4ms]
+2026-05-24 21:42:20.249 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [6ms]
+2026-05-24 21:42:20.251 [info] > git config --get commit.template [30ms]
+2026-05-24 21:42:20.281 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/student_00_58c099c68ece/monolith-to-microservices/.git/refs/remotes/origin/master'
+2026-05-24 21:42:20.287 [info] > git rev-parse refs/remotes/origin/master [6ms]
+2026-05-24 21:42:20.336 [info] > git status -z -uall [34ms]
+2026-05-24 21:42:20.338 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [8ms]
+2026-05-24 21:42:22.188 [info] > git rev-parse --show-toplevel [59ms]
+2026-05-24 21:42:22.275 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [34ms]
+2026-05-24 21:42:22.430 [info] [Model][openRepository] Opened repository (path): /home/student_00_58c099c68ece/.gemini/history/student-00-58c099c68ece
+2026-05-24 21:42:22.430 [info] [Model][openRepository] Opened repository (real path): /home/student_00_58c099c68ece/.gemini/history/student-00-58c099c68ece
+2026-05-24 21:42:22.430 [info] [Model][openRepository] Opened repository (kind): repository
+2026-05-24 21:42:22.572 [info] > git config --get commit.template [60ms]
+2026-05-24 21:42:22.640 [info] [Git][getRemotes] No remotes found in the git config file
+2026-05-24 21:42:22.661 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [22ms]
+2026-05-24 21:42:22.762 [info] > git status -z -uall [34ms]
+2026-05-24 21:42:22.764 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [8ms]
+2026-05-24 21:42:22.819 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [32ms]
+2026-05-24 21:42:22.846 [info] > git config --get commit.template [28ms]
+2026-05-24 21:42:22.848 [info] > git config --get --local branch.main.vscode-merge-base [6ms]
+2026-05-24 21:42:22.848 [warning] [Git][config] git config failed: Failed to execute git
+2026-05-24 21:42:22.903 [info] [Git][getRemotes] No remotes found in the git config file
+2026-05-24 21:42:22.908 [info] > git reflog main --grep-reflog=branch: Created from *. [35ms]
+2026-05-24 21:42:22.911 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [8ms]
+2026-05-24 21:42:22.956 [info] > git status -z -uall [25ms]
+2026-05-24 21:42:22.976 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [24ms]
+2026-05-24 21:42:23.156 [info] > git check-ignore -v -z --stdin [50ms]
+2026-05-24 21:42:29.791 [info] > git check-ignore -v -z --stdin [183ms]
+2026-05-24 21:42:30.243 [info] > git check-ignore -v -z --stdin [8ms]

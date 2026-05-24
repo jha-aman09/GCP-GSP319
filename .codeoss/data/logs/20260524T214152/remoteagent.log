@@ -1,0 +1,13 @@
+2026-05-24 21:41:52.984 [info] 
+
+
+
+
+2026-05-24 21:41:53.004 [info] Extension host agent started.
+2026-05-24 21:41:53.041 [info] Started initializing default profile extensions in extensions installation folder. file:///home/student_00_58c099c68ece/.codeoss/extensions
+2026-05-24 21:41:53.063 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/student_00_58c099c68ece/.codeoss/extensions
+2026-05-24 21:41:55.306 [info] [127.0.0.1][a4e70d33][ManagementConnection] New connection established.
+2026-05-24 21:41:55.385 [info] [127.0.0.1][4b7bfc99][ExtensionHostConnection] New connection established.
+2026-05-24 21:41:58.423 [info] [127.0.0.1][4b7bfc99][ExtensionHostConnection] <2561> Launched Extension Host Process.
+2026-05-24 21:42:00.357 [info] [127.0.0.1][4b7bfc99][ExtensionHostConnection] <2561> [reconnection-grace-time] Extension host: read VSCODE_RECONNECTION_GRACE_TIME=10800000ms (10800s)
+
