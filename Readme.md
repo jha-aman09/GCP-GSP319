@@ -548,6 +548,3 @@ Google Kubernetes Engine Cluster
 ## 🧑‍💻 Author  
 - **LinkedIn**: [Aman Jha](https://www.linkedin.com/in/aman--jha/)  
 - **GitHub**: [Aman Jha](https://github.com/jha-aman09) 
-
-## Home Page
-
